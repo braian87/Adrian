@@ -13,51 +13,36 @@ export default function LandingPage() {
     <div className="flex min-h-screen flex-col">
       {/* Header */}
       <header className="sticky top-0 z-40 border-b bg-background">
-  <div className="container flex h-16 items-center justify-between py-4">
-    <div className="flex items-center gap-2">
-      <Image
-        src="/placeholder-logo.png?height=40&width=40"
-        alt="Company Logo"
-        width={40}
-        height={40}
-        className="rounded mt-2 ml-2"
-      />
-      <h1 className="text-xl font-bold">Construccion Natural</h1>
-    </div>
-    <nav className="hidden md:flex gap-6">
-      <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
-        Servicios
-      </Link>
-      <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
-        Sobre Nosotros
-      </Link>
-      <Link href="#portfolio" className="text-sm font-medium hover:underline underline-offset-4">
-        Nuestros Trabajos
-      </Link>
-      <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
-        Contacto
-      </Link>
-    </nav>
-    <Button asChild size="sm" className="hidden md:flex">
-      <Link href="#contact">Contáctanos</Link>
-    </Button>
-
-    {/* Hamburger Menu */}
-    <div className="md:hidden">
-      <Button className="text-sm" onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
-      </Button>
-      {menuOpen && (
-        <nav className="absolute top-16 right-4 bg-white p-4 shadow-lg">
-          <Link href="#services" className="block py-2">Servicios</Link>
-          <Link href="#about" className="block py-2">Sobre Nosotros</Link>
-          <Link href="#portfolio" className="block py-2">Nuestros Trabajos</Link>
-          <Link href="#contact" className="block py-2">Contacto</Link>
-        </nav>
-      )}
-    </div>
-  </div>
-</header>
+        <div className="container flex h-16 items-center justify-between py-4">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/placeholder-logo.png?height=40&width=40"
+              alt="Company Logo"
+              width={40}
+              height={40}
+              className="rounded mt-2 ml-2"
+            />
+            <h1 className="text-xl font-bold">Construccion Natural</h1>
+          </div>
+          <nav className="hidden md:flex gap-6">
+            <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
+              Servicios
+            </Link>
+            <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
+              Sobre Nosotros
+            </Link>
+            <Link href="#portfolio" className="text-sm font-medium hover:underline underline-offset-4">
+              Nuestros Trabajos
+            </Link>
+            <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
+              Contacto
+            </Link>
+          </nav>
+          <Button asChild size="sm" className="hidden md:flex">
+            <Link href="#contact">Contáctanos</Link>
+          </Button>
+        </div>
+      </header>
   
       <main className="flex-1">
         {/* Hero Section */}
