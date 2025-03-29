@@ -22,7 +22,7 @@ export default function LandingPage() {
               height={40}
               className="rounded"
             />
-            <h1 className="text-xl font-bold">Natural Building Co.</h1>
+            <h1 className="text-xl font-bold">Construccion Natural</h1>
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
@@ -83,7 +83,7 @@ export default function LandingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Nuestros Servicios</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                   Nuestros servicios
+                   
                 </p>
               </div>
             </div>
