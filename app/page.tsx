@@ -50,7 +50,7 @@ export default function LandingPage() {
           </Button>
 
           {/* Mobile Navigation */}
-          <Sheet>
+          <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="md:hidden">
                 <Menu className="h-5 w-5" />
@@ -410,7 +410,7 @@ export default function LandingPage() {
                   <Textarea id="message" name="message" className="min-h-[120px]" required />
                 </div>
                 <Button type="submit" size="lg" className="w-full">
-                         <WhatsApp className="mr-2 h-4 w-4" />
+                  <WhatsApp className="mr-2 h-4 w-4" />
                   Enviar por WhatsApp
                 </Button>
               </form>
@@ -494,4 +494,5 @@ export default function LandingPage() {
       </footer>
     </div>
   )
-                }
+}
+
