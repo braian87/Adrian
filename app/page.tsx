@@ -26,20 +26,20 @@ export default function LandingPage() {
           </div>
           <nav className="hidden md:flex gap-6">
             <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
-              Services
+              Servicios
             </Link>
             <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
-              About Us
+              Sobre Nosotros
             </Link>
             <Link href="#portfolio" className="text-sm font-medium hover:underline underline-offset-4">
-              Our Work
+              Nuestros Trabajos
             </Link>
             <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
-              Contact
+              Contacto
             </Link>
           </nav>
           <Button asChild size="sm" className="hidden md:flex">
-            <Link href="#contact">Get in Touch</Link>
+            <Link href="#contact">Contáctanos</Link>
           </Button>
         </div>
       </header>
@@ -51,18 +51,17 @@ export default function LandingPage() {
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <div className="space-y-4">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  Building Naturally, Living Sustainably
+                  "Barro, fuego y hogar: la construcción consciente."
                 </h2>
                 <p className="text-muted-foreground md:text-xl">
-                  We create beautiful, sustainable, and eco-friendly structures using traditional techniques and natural
-                  materials. Our passion is building in harmony with nature.
+                  Expertos en bioconstrucción ecológica con materiales naturales. 
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button asChild size="lg">
-                    <Link href="#contact">Contact Us</Link>
+                    <Link href="#contact">Contáctanos</Link>
                   </Button>
                   <Button asChild variant="outline" size="lg">
-                    <Link href="#services">Our Services</Link>
+                    <Link href="#services">Nuestros Servicios</Link>
                   </Button>
                 </div>
               </div>
@@ -82,9 +81,9 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Services</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Nuestros Servicios</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  We specialize in sustainable building techniques that are both beautiful and environmentally friendly.
+                   Nuestros servicios
                 </p>
               </div>
             </div>
@@ -99,10 +98,9 @@ export default function LandingPage() {
                     className="rounded-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold">Mud Houses</h3>
+                <h3 className="text-xl font-bold">Casas de Barro</h3>
                 <p className="text-muted-foreground">
-                  Sustainable, energy-efficient homes built with natural materials that breathe and regulate temperature
-                  naturally.
+                  Viviendas sustentables y eficientes térmicamente.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
@@ -115,10 +113,9 @@ export default function LandingPage() {
                     className="rounded-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold">Clay Ovens</h3>
+                <h3 className="text-xl font-bold">Hornos de Barro</h3>
                 <p className="text-muted-foreground">
-                  Traditional wood-fired ovens that provide exceptional heat retention and impart unique flavors to your
-                  food.
+                  Hornos tradicionales para una cocina natural.
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
@@ -131,9 +128,9 @@ export default function LandingPage() {
                     className="rounded-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold">Rocket Stoves</h3>
+                <h3 className="text-xl font-bold">Estufas Rocket</h3>
                 <p className="text-muted-foreground">
-                  Highly efficient cooking and heating systems that use minimal fuel while producing maximum heat.
+                  Calor eficiente con menos leña.
                 </p>
               </div>
             </div>
@@ -152,18 +149,15 @@ export default function LandingPage() {
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover"
               />
               <div className="space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Us</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Sobre Nosotros</h2>
                 <p className="text-muted-foreground md:text-xl">
-                  We are a team of passionate builders dedicated to reviving traditional building techniques for modern
-                  living. With over a decade of experience in natural building, we've helped countless families create
-                  sustainable, beautiful homes and structures that stand the test of time.
+                  Somos una empresa de bioconstrucción especializada en la creación de casas de barro, hornos de barro y estufas Rocket de alto rendimiento. Creemos en la construcción sustentable, utilizando materiales naturales y técnicas ecológicas que garantizan confort, eficiencia y armonía con el entorno. Nuestro compromiso es ofrecer soluciones de vivienda más saludables, económicas y en equilibrio con la naturaleza.
                 </p>
                 <p className="text-muted-foreground md:text-xl">
-                  Our approach combines ancient wisdom with modern knowledge, resulting in structures that are not only
-                  environmentally friendly but also comfortable, durable, and aesthetically pleasing.
+                  Nuestro enfoque combina la sabiduría antigua con el conocimiento moderno, dando como resultado estructuras que no solo son respetuosas con el medio ambiente, sino también cómodas, duraderas y estéticamente agradables.
                 </p>
                 <Button asChild variant="outline" size="lg">
-                  <Link href="#contact">Work With Us</Link>
+                  <Link href="#contact">Trabaja con nosotros</Link>
                 </Button>
               </div>
             </div>
@@ -175,9 +169,9 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Completed Work</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Trabajo Terminado</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Take a look at some of our recently completed projects.
+                  Eche un vistazo a algunos de nuestros proyectos completados recientemente.
                 </p>
               </div>
             </div>
@@ -191,8 +185,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Eco-Friendly Family Home</h3>
-                  <p className="text-sm text-muted-foreground">Mud brick construction with living roof</p>
+                  <h3 className="font-bold">Casa Familiar Ecológica</h3>
+                  <p className="text-sm text-muted-foreground">Construcción de adobe con techo verde</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg">
@@ -204,8 +198,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Community Clay Oven</h3>
-                  <p className="text-sm text-muted-foreground">Traditional design with modern improvements</p>
+                  <h3 className="font-bold">Horno de barro comunitario</h3>
+                  <p className="text-sm text-muted-foreground">Diseño tradicional con mejoras modernas.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg">
@@ -217,8 +211,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Integrated Rocket Stove System</h3>
-                  <p className="text-sm text-muted-foreground">Heating and cooking solution for off-grid cabin</p>
+                  <h3 className="font-bold">Sistema de estufa Rocket integrado</h3>
+                  <p className="text-sm text-muted-foreground">Solución de calefacción y cocina para cabañas fuera de la red.</p>
                 </div>
               </div>
             </div>
@@ -230,9 +224,9 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Other Projects</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Otros Proyectos</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Explore more of our diverse building projects.
+                  Explore más de nuestros diversos proyectos de construcción.
                 </p>
               </div>
             </div>
@@ -246,8 +240,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Natural Swimming Pool</h3>
-                  <p className="text-sm text-muted-foreground">Chemical-free water filtration system</p>
+                  <h3 className="font-bold">Piscina natural</h3>
+                  <p className="text-sm text-muted-foreground">Sistema de filtración de agua sin químicos.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg">
@@ -259,8 +253,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Cob Garden Wall</h3>
-                  <p className="text-sm text-muted-foreground">Decorative and functional boundary</p>
+                  <h3 className="font-bold">Muro de jardín de adobe</h3>
+                  <p className="text-sm text-muted-foreground">Límite decorativo y funcional.</p>
                 </div>
               </div>
               <div className="overflow-hidden rounded-lg">
@@ -272,8 +266,8 @@ export default function LandingPage() {
                   className="aspect-video object-cover transition-all hover:scale-105"
                 />
                 <div className="p-4">
-                  <h3 className="font-bold">Earthen Floor Installation</h3>
-                  <p className="text-sm text-muted-foreground">Natural, durable flooring solution</p>
+                  <h3 className="font-bold">Instalación de suelo de tierra.</h3>
+                  <p className="text-sm text-muted-foreground">Solución de suelo natural y duradera.</p>
                 </div>
               </div>
             </div>
@@ -287,7 +281,7 @@ export default function LandingPage() {
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Contact Us</h2>
                 <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Get in touch to discuss your project or learn more about our services.
+                  Póngase en contacto con nosotros para hablar sobre su proyecto o conocer más sobre nuestros servicios.
                 </p>
               </div>
             </div>
@@ -314,11 +308,11 @@ export default function LandingPage() {
               >
                 <div className="grid gap-4 sm:grid-cols-2">
                   <div className="grid gap-2">
-                    <Label htmlFor="firstName">First Name</Label>
+                    <Label htmlFor="firstName">Nombre</Label>
                     <Input id="firstName" name="firstName" required />
                   </div>
                   <div className="grid gap-2">
-                    <Label htmlFor="lastName">Last Name</Label>
+                    <Label htmlFor="lastName">Apellido</Label>
                     <Input id="lastName" name="lastName" required />
                   </div>
                 </div>
@@ -333,12 +327,12 @@ export default function LandingPage() {
                   </div>
                 </div>
                 <div className="grid gap-2">
-                  <Label htmlFor="message">Message</Label>
+                  <Label htmlFor="message">Mensaje</Label>
                   <Textarea id="message" name="message" className="min-h-[120px]" required />
                 </div>
                 <Button type="submit" size="lg" className="w-full">
                   <WhatsApp className="mr-2 h-4 w-4" />
-                  Send via WhatsApp
+                  Enviar por WhatsApp
                 </Button>
               </form>
             </div>
@@ -358,10 +352,10 @@ export default function LandingPage() {
                 height={40}
                 className="rounded"
               />
-              <h3 className="text-lg font-bold">Natural Building Co.</h3>
+              <h3 className="text-lg font-bold">Construccion Natural</h3>
             </div>
             <p className="text-sm text-muted-foreground">
-              Building sustainable structures in harmony with nature since 2010.
+              Construyendo estructuras sostenibles en armonía con la naturaleza desde 2010.
             </p>
             <div className="flex gap-4">
               <Link href="https://facebook.com" className="text-muted-foreground hover:text-foreground">
@@ -379,19 +373,19 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Contact Information</h3>
+            <h3 className="text-lg font-bold">Información del contacto</h3>
             <div className="grid gap-2 text-sm">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-muted-foreground" />
-                <span>+1 (163) 604-558</span>
+                <span>+54 (11) 63604558</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-muted-foreground" />
-                <span>contact@naturalbuilding.com</span>
+                <span>contact@construccionnatural.com</span>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-muted-foreground" />
-                <span>123 Eco Street, Sustainable City, Earth</span>
+                <span>Warnes 123, Merlo, Buenos Aires, Argentina</span>
               </div>
             </div>
           </div>
@@ -399,23 +393,23 @@ export default function LandingPage() {
             <h3 className="text-lg font-bold">Quick Links</h3>
             <nav className="grid gap-2 text-sm">
               <Link href="#services" className="hover:underline">
-                Services
+                Servicios
               </Link>
               <Link href="#about" className="hover:underline">
-                About Us
+                Sobre Nosotros
               </Link>
               <Link href="#portfolio" className="hover:underline">
-                Our Work
+                Nuestros Trabajos
               </Link>
               <Link href="#contact" className="hover:underline">
-                Contact
+                Contacto
               </Link>
             </nav>
           </div>
         </div>
         <div className="container mt-8 border-t pt-8 px-4 md:px-6">
           <p className="text-center text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} Natural Building Co. All rights reserved.
+            &copy; {new Date().getFullYear()} Construccion Natural. Todos los derechos reservados.
           </p>
         </div>
       </footer>
