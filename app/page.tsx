@@ -303,7 +303,7 @@ export default function LandingPage() {
                   )
 
                   // Open WhatsApp with the pre-filled message
-                  window.open(`https://wa.me/1163604558?text=${whatsappMessage}`, "_blank")
+                  window.open(`https://wa.me/5491163604558?text=${whatsappMessage}`, "_blank")
                 }}
               >
                 <div className="grid gap-4 sm:grid-cols-2">
@@ -366,7 +366,7 @@ export default function LandingPage() {
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
               </Link>
-              <Link href="https://wa.me/1163604558" className="text-muted-foreground hover:text-foreground">
+              <Link href="https://wa.me/5491163604558" className="text-muted-foreground hover:text-foreground">
                 <WhatsApp className="h-5 w-5" />
                 <span className="sr-only">WhatsApp</span>
               </Link>
