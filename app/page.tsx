@@ -346,7 +346,7 @@ export default function LandingPage() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <Image
-                src="/placeholder.svg?height=40&width=40"
+                src="/placeholder-logo.png?height=40&width=40"
                 alt="Company Logo"
                 width={40}
                 height={40}
