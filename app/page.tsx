@@ -142,7 +142,7 @@ export default function LandingPage() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/casa4.jpg?height=550&width=550"
                 alt="About Us"
                 width={550}
                 height={550}
@@ -233,7 +233,7 @@ export default function LandingPage() {
             <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/piscina.jpg?height=400&width=600"
                   alt="Other Project 1"
                   width={600}
                   height={400}
@@ -246,7 +246,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/muro.jpg?height=400&width=600"
                   alt="Other Project 2"
                   width={600}
                   height={400}
@@ -259,7 +259,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/piso.jpg?height=400&width=600"
                   alt="Other Project 3"
                   width={600}
                   height={400}
