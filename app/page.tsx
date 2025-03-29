@@ -390,7 +390,7 @@ export default function LandingPage() {
             </div>
           </div>
           <div className="space-y-4">
-            <h3 className="text-lg font-bold">Quick Links</h3>
+            <h3 className="text-lg font-bold">Enlaces rápidos</h3>
             <nav className="grid gap-2 text-sm">
               <Link href="#services" className="hover:underline">
                 Servicios
