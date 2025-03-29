@@ -1,49 +1,72 @@
 "use client"
 
-import Link from "next/link"
-import Image from "next/image"
-import { Facebook, Instagram, Mail, MapPin, Phone, PhoneIcon as WhatsApp } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+import { useState } from "react" import Link from "next/link" import Image from "next/image" import { Menu, X } from "lucide-react" import { Button } from "@/components/ui/button"
 
-export default function LandingPage() {
-  return (
-    <div className="flex min-h-screen flex-col">
-      {/* Header */}
-      <header className="sticky top-0 z-40 border-b bg-background">
-        <div className="container flex h-16 items-center justify-between py-4">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/placeholder-logo.png?height=40&width=40"
-              alt="Company Logo"
-              width={40}
-              height={40}
-              className="rounded mt-2 ml-2"
-            />
-            <h1 className="text-xl font-bold">Construccion Natural</h1>
-          </div>
-          <nav className="hidden md:flex gap-6">
-            <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
-              Servicios
-            </Link>
-            <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
-              Sobre Nosotros
-            </Link>
-            <Link href="#portfolio" className="text-sm font-medium hover:underline underline-offset-4">
-              Nuestros Trabajos
-            </Link>
-            <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
-              Contacto
-            </Link>
-          </nav>
-          <Button asChild size="sm" className="hidden md:flex">
-            <Link href="#contact">Contáctanos</Link>
-          </Button>
-        </div>
-      </header>
+export default function LandingPage() { const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+return ( <div className="flex min-h-screen flex-col"> {/* Header */} <header className="sticky top-0 z-40 border-b bg-background w-full"> <div className="container flex h-16 items-center justify-between py-4 px-4 md:px-6"> <div className="flex items-center gap-2"> <Image
+src="/placeholder-logo.png?height=40&width=40"
+alt="Company Logo"
+width={40}
+height={40}
+className="rounded"
+/> <h1 className="text-xl font-bold">Construccion Natural</h1> </div>
+
+{/* Desktop Navigation */}
+      <nav className="hidden md:flex gap-6">
+        <Link href="#services" className="text-sm font-medium hover:underline underline-offset-4">
+          Servicios
+        </Link>
+        <Link href="#about" className="text-sm font-medium hover:underline underline-offset-4">
+          Sobre Nosotros
+        </Link>
+        <Link href="#portfolio" className="text-sm font-medium hover:underline underline-offset-4">
+          Nuestros Trabajos
+        </Link>
+        <Link href="#contact" className="text-sm font-medium hover:underline underline-offset-4">
+          Contacto
+        </Link>
+      </nav>
+      
+      <Button asChild size="sm" className="hidden md:flex">
+        <Link href="#contact">Contáctanos</Link>
+      </Button>
+      
+      {/* Mobile Menu Button */}
+      <button
+        className="md:hidden p-2"
+        onClick={() => setIsMenuOpen(!isMenuOpen)}
+      >
+        {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+      </button>
+    </div>
+    
+    {/* Mobile Navigation */}
+    {isMenuOpen && (
+      <nav className="md:hidden flex flex-col items-center gap-4 py-4 bg-background border-t">
+        <Link href="#services" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>
+          Servicios
+        </Link>
+        <Link href="#about" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>
+          Sobre Nosotros
+        </Link>
+        <Link href="#portfolio" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>
+          Nuestros Trabajos
+        </Link>
+        <Link href="#contact" className="text-sm font-medium" onClick={() => setIsMenuOpen(false)}>
+          Contacto
+        </Link>
+        <Button asChild size="sm">
+          <Link href="#contact" onClick={() => setIsMenuOpen(false)}>Contáctanos</Link>
+        </Button>
+      </nav>
+    )}
+  </header>
+</div>
+
+) }
+
+  
       <main className="flex-1">
         {/* Hero Section */}
         <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
