@@ -66,7 +66,7 @@ export default function LandingPage() {
                 </div>
               </div>
               <Image
-                src="/placeholder.svg?height=550&width=550"
+                src="/casa3.jpg?height=550&width=550"
                 alt="Natural Building"
                 width={550}
                 height={550}
@@ -91,7 +91,7 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/casa2.jpg?height=100&width=100"
                     alt="Mud Houses"
                     width={100}
                     height={100}
@@ -106,7 +106,7 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/horno.jpg?height=100&width=100"
                     alt="Clay Ovens"
                     width={100}
                     height={100}
@@ -121,7 +121,7 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/placeholder.svg?height=100&width=100"
+                    src="/rocket.jpg?height=100&width=100"
                     alt="Rocket Stoves"
                     width={100}
                     height={100}
@@ -178,7 +178,7 @@ export default function LandingPage() {
             <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/casa1.jpg?height=400&width=600"
                   alt="Completed Project 1"
                   width={600}
                   height={400}
@@ -191,7 +191,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/horno.jpg?height=400&width=600"
                   alt="Completed Project 2"
                   width={600}
                   height={400}
@@ -204,7 +204,7 @@ export default function LandingPage() {
               </div>
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/rocket.jpg?height=400&width=600"
                   alt="Completed Project 3"
                   width={600}
                   height={400}
