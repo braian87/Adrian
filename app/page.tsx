@@ -66,11 +66,11 @@ export default function LandingPage() {
                 </div>
               </div>
               <Image
-                src="/casa3.jpg?height=550&width=550"
+                src="/casa3.jpg?height=400&width=600"
                 alt="Natural Building"
-                width={550}
-                height={550}
-                className="mx-auto aspect-video overflow-hidden rounded-xl object-cover"
+                width={600}
+                height={400}
+                className="aspect-video object-cover transition-all hover:scale-105"
               />
             </div>
           </div>
@@ -91,11 +91,11 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/casa2.jpg?height=100&width=100"
+                    src="/casa2.jpg?height=400&width=600"
                     alt="Mud Houses"
-                    width={100}
-                    height={100}
-                    className="rounded-full object-cover"
+                    width={600}
+                    height={400}
+                    className="aspect-video object-cover transition-all hover:scale-105"
                   />
                 </div>
                 <h3 className="text-xl font-bold">Casas de Barro</h3>
@@ -106,11 +106,11 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/horno.jpg?height=100&width=100"
+                    src="/horno.jpg?height=400&width=600"
                     alt="Clay Ovens"
-                    width={100}
-                    height={100}
-                    className="rounded-full object-cover"
+                    width={600}
+                    height={400}
+                    className="aspect-video object-cover transition-all hover:scale-105"
                   />
                 </div>
                 <h3 className="text-xl font-bold">Hornos de Barro</h3>
@@ -121,11 +121,11 @@ export default function LandingPage() {
               <div className="flex flex-col items-center space-y-4 text-center">
                 <div className="rounded-full bg-muted p-4">
                   <Image
-                    src="/rocket.jpg?height=100&width=100"
+                    src="/rocket.jpg?height=400&width=600"
                     alt="Rocket Stoves"
-                    width={100}
-                    height={100}
-                    className="rounded-full object-cover"
+                    width={600}
+                    height={400}
+                    className="aspect-video object-cover transition-all hover:scale-105"
                   />
                 </div>
                 <h3 className="text-xl font-bold">Estufas Rocket</h3>
