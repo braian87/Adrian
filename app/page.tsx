@@ -89,7 +89,7 @@ export default function LandingPage() {
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="rounded-full bg-muted p-4">
+                <div className="p-4">
                   <Image
                     src="/casa2.jpg?height=400&width=600"
                     alt="Mud Houses"
@@ -104,7 +104,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="rounded-full bg-muted p-4">
+                <div className="p-4">
                   <Image
                     src="/horno.jpg?height=400&width=600"
                     alt="Clay Ovens"
@@ -119,7 +119,7 @@ export default function LandingPage() {
                 </p>
               </div>
               <div className="flex flex-col items-center space-y-4 text-center">
-                <div className="rounded-full bg-muted p-4">
+                <div className="p-4">
                   <Image
                     src="/rocket.jpg?height=400&width=600"
                     alt="Rocket Stoves"
