@@ -20,7 +20,7 @@ export default function LandingPage() {
               alt="Company Logo"
               width={40}
               height={40}
-              className="rounded"
+              className="rounded mt-2 ml-2"
             />
             <h1 className="text-xl font-bold">Construccion Natural</h1>
           </div>
